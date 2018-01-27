@@ -9,7 +9,7 @@ var bodyParser = require('body-parser')
 
 router.get('/', (req, res) => {
 
-res.render('/homepage')
+res.render('homepage')
 })
 
 module.exports = router
