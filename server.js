@@ -1,12 +1,28 @@
 var express = require('express')
-
-var server = express()
 var bodyParser = require('body-parser')
+var hbs = require('express-handlebars')
+var config = require('./knexfile').development
+var knex = require('knex')
+var db = knex(config)
 
-server.use(express.static('public'));
+var routes = require('./routes')
 
-server.get('/', function (req, res) {
-  res.sendFile(__dirname + '/homepage.html')
-})
+var app = express()
 
-module.exports = server
+// Middleware
+app.use(bodyParser.urlencoded({ extended: true }))
+app.engine('hbs', hbs({
+  extname: 'hbs',
+  defaultLayout: 'main'
+}))
+app.set('view engine', 'hbs')
+app.use(express.static('public'))
+
+// Routes
+app.use('/', routes)
+
+// Send back a creator function which links a db with the app so that it is testable
+module.exports = function (db) {
+  app.set('db', db)
+  return app
+}

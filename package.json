@@ -1,25 +1,42 @@
 {
-  "name": "express-server",
+  "name": "transpire",
   "version": "1.1.0",
-  "description": "Creating a web server with Express",
+  "description": "Educating, Motivating, Inspiring",
   "main": "index.js",
+  "engines": {
+    "node": "8.9.4"
+  },
+
   "scripts": {
   "dev": "nodemon index",
   "start": "node index",
-  "test": "jest --watch"
+  "test": "jest --watch",
+  "knex": "knex",
+  "postinstall": "knex migrate:latest"
   },
   "repository": {
   "type": "git",
-  "url": "git+https://github.com/tatyana-malan/transpire"
+  "url": "git+https://github.com/hayden-malan/transpire"
   },
   "author": "Hayden",
   "license": "ISC",
-  "homepage": "https://github.com/dev-academy-challenges/express-server#readme",
+  "homepage": "git+https://github.com/hayden-malan/transpire#readme",
+  
   "dependencies": {
-  "express": "^4.14.0",
-  "supertest": "^3.0.0"
+    "body-parser": "^1.15.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "heroku": "^0.2.0",
+    "knex": "^0.14.2",
+    "node": "^9.4.0",
+    "pg": "^7.4.1",
+    "sqlite3": "^3.1.13"
   },
   "devDependencies": {
-  "jest": "^21.2.1"
+    "cheerio": "^1.0.0-rc.2",
+    "jest": "^22.1.4",
+    "nodemon": "^1.14.11",
+    "supertest": "^3.0.0",
+    "node": "^9.4.0"
   }
   }

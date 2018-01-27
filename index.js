@@ -1,7 +1,11 @@
-var server = require('./server')
+var createServer = require('./server')
+var development = require('./knexfile').development
+var knex = require('knex')(development)
 
-var port = process.env.PORT || 2000
+var server = createServer(knex)
 
-server.listen(port, function () {
-  console.log('Server listening on port:', port)
+var PORT = process.env.PORT || 3000
+
+server.listen(PORT, function () {
+  console.log('All The Trans Peeps on ', PORT)
 })
