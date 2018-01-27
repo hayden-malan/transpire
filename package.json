@@ -4,6 +4,7 @@
   "description": "Creating a web server with Express",
   "main": "index.js",
   "scripts": {
+  "dev": "nodemon index",
   "start": "node index",
   "test": "jest --watch"
   },

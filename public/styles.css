@@ -1,14 +1,28 @@
+* {
+    color:rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
 .spare {
     outline: 1px solid red !important;
 }
 
  body {
-   background-color:#91DDE7;
-    background-repeat: repeat;  background-attachment: fixed;
-    background-image: url(https://i.pinimg.com/736x/b2/f4/14/b2f414d6952d7359a838b70f757e31bc--favorite-things-wallpapers.jpg);
+    
+   background-color:rgb(143, 211, 238);
+    background: url(https://i2.wp.com/lajournaliste.com/wp-content/uploads/2016/05/Lush_1100x619.jpg?fit=1100%2C619) no-repeat center center fixed;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
   }
+
+  
 /* https://www.sculpteo.com/blog/wp-content/uploads/2015/12/cover-for-ebook-article.jpg */
 /* https://data.whicdn.com/images/61582330/large.jpg */
+/* https://i.pinimg.com/736x/b2/f4/14/b2f414d6952d7359a838b70f757e31bc--favorite-things-wallpapers.jpg */
  .logo {
     max-height: 8.56em;
   }
@@ -25,10 +39,17 @@
   h1 {
       padding-top:4rem;
       padding-left:2rem;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
-  h4 {
+  h3 {
     padding-left:1rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h5 {
+    padding-left:1rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .nav{
@@ -93,12 +114,12 @@
 }
 
 .container {
-  background-color:#9FE6F3;
+  background-color:rgba(159, 230, 243, 0);
 }
 
 
 .article {
-  background-color:rgb(236, 236, 236);
+  background-color:rgb(2, 165, 214);
   padding-left: 10px;
   padding-bottom:40px;
 }
