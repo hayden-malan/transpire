@@ -1,7 +1,7 @@
 # transpire
 Educating, Motivating, Connecting. This is a project aimed to provide resources for trans people and their loved ones. 
 
-http://trans-pire.herokuapp.com
+[VISIT THE SITE HERE](http://trans-pire.herokuapp.com)
 #transpire
 tranˈspʌɪə,trɑːnˈspʌɪə/Submit
 verb
