@@ -25,6 +25,13 @@
 /* https://i.pinimg.com/736x/b2/f4/14/b2f414d6952d7359a838b70f757e31bc--favorite-things-wallpapers.jpg */
  .logo {
     max-height: 8.56em;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-left: 0%;
+    border: 1px solid black;
+  }
+  .columns{
+    margin-left: 0%;
   }
   
   .articleimg {
@@ -52,9 +59,9 @@ h5 {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.nav{
-    padding-top:2rem;
-    padding-left:2rem; 
+.navbar{
+  position: center; 
+  /* background: rgb(103, 214, 241); */
 }
 
 .footertxt {
@@ -69,10 +76,11 @@ h5 {
 
 /* Dropdown Button */
 .dropbtn {
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 201, 255)); 
     background-color: #FFB8EA;
     color: rgb(39, 40, 47);
     padding-left: 7px;
-    border: none;
+    border: solid 1px rgb(250, 101, 255);
     cursor: pointer;
 }
 
@@ -119,7 +127,26 @@ h5 {
 
 
 .article {
-  background-color:rgb(2, 165, 214);
+  background-color:rgba(176, 233, 250, 0.596);
   padding-left: 10px;
+  padding-top:25px;
   padding-bottom:40px;
+  text-align:center;
 }
+.article2 {
+    background-color:rgba(176, 233, 250, 0);
+    padding-left: 10px;
+    padding-bottom:40px;
+    text-align:center;
+  }
+  
+  .parabox {
+   background-color:rgb(255, 255, 255);
+   color: grey;
+   margin-right: 40px;
+   margin-left:10px;
+   padding:10px;
+
+  }
+
+  
