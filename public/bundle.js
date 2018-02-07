@@ -11539,11 +11539,6 @@ var App = function App() {
       'div',
       { className: 'app' },
       _react2.default.createElement(
-        'h1',
-        null,
-        'WTo Transpire'
-      ),
-      _react2.default.createElement(
         'div',
         { className: 'container' },
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default })
@@ -11588,13 +11583,13 @@ var Home = function Home() {
     { className: 'home' },
     _react2.default.createElement(
       'div',
-      { 'class': 'container' },
+      { className: 'container' },
       _react2.default.createElement(
         'div',
-        { 'class': 'row' },
+        { className: 'row' },
         _react2.default.createElement(
           'div',
-          { 'class': 'nine columns' },
+          { className: 'nine columns' },
           _react2.default.createElement(
             'h1',
             null,
@@ -11608,30 +11603,30 @@ var Home = function Home() {
         ),
         _react2.default.createElement(
           'div',
-          { 'class': 'three columns' },
-          _react2.default.createElement('img', { 'class': 'logo', src: 'http://files.pfaw.org/uploads/2017/07/1280px-Transgender_Pride_flag-800x458.png' })
+          { className: 'three columns' },
+          _react2.default.createElement('img', { className: 'logo', src: 'http://files.pfaw.org/uploads/2017/07/1280px-Transgender_Pride_flag-800x458.png' })
         )
       ),
       _react2.default.createElement(
         'div',
-        { 'class': 'navbar' },
+        { className: 'navbar' },
         _react2.default.createElement(
           'div',
-          { 'class': 'row' },
+          { className: 'row' },
           _react2.default.createElement(
             'div',
-            { 'class': 'three columns' },
+            { className: 'three columns' },
             _react2.default.createElement(
               'div',
-              { 'class': 'dropdown' },
+              { className: 'dropdown' },
               _react2.default.createElement(
                 'button',
-                { 'class': 'dropbtn' },
+                { className: 'dropbtn' },
                 'RESOURCES'
               ),
               _react2.default.createElement(
                 'div',
-                { 'class': 'dropdown-content' },
+                { className: 'dropdown-content' },
                 _react2.default.createElement(
                   'a',
                   { href: '#' },
@@ -11662,18 +11657,18 @@ var Home = function Home() {
           ),
           _react2.default.createElement(
             'div',
-            { 'class': 'three columns' },
+            { className: 'three columns' },
             _react2.default.createElement(
               'div',
-              { 'class': 'dropdown' },
+              { className: 'dropdown' },
               _react2.default.createElement(
                 'button',
-                { 'class': 'dropbtn' },
+                { className: 'dropbtn' },
                 'GALLERY'
               ),
               _react2.default.createElement(
                 'div',
-                { 'class': 'dropdown-content' },
+                { className: 'dropdown-content' },
                 _react2.default.createElement(
                   'a',
                   { href: '#' },
@@ -11694,18 +11689,18 @@ var Home = function Home() {
           ),
           _react2.default.createElement(
             'div',
-            { 'class': 'three columns' },
+            { className: 'three columns' },
             _react2.default.createElement(
               'div',
-              { 'class': 'dropdown' },
+              { className: 'dropdown' },
               _react2.default.createElement(
                 'button',
-                { 'class': 'dropbtn' },
+                { className: 'dropbtn' },
                 'QUESTIONS'
               ),
               _react2.default.createElement(
                 'div',
-                { 'class': 'dropdown-content' },
+                { className: 'dropdown-content' },
                 _react2.default.createElement(
                   'a',
                   { href: '#' },
@@ -11731,18 +11726,18 @@ var Home = function Home() {
           ),
           _react2.default.createElement(
             'div',
-            { 'class': 'three columns' },
+            { className: 'three columns' },
             _react2.default.createElement(
               'div',
-              { 'class': 'dropdown' },
+              { className: 'dropdown' },
               _react2.default.createElement(
                 'button',
-                { 'class': 'dropbtn' },
+                { className: 'dropbtn' },
                 'POSITIVITY'
               ),
               _react2.default.createElement(
                 'div',
-                { 'class': 'dropdown-content' },
+                { className: 'dropdown-content' },
                 _react2.default.createElement(
                   'a',
                   { href: '#' },
@@ -11765,7 +11760,7 @@ var Home = function Home() {
       ),
       _react2.default.createElement(
         'div',
-        { 'class': 'article' },
+        { className: 'article' },
         _react2.default.createElement(
           'h3',
           null,
@@ -11778,7 +11773,7 @@ var Home = function Home() {
         ),
         _react2.default.createElement(
           'p',
-          { 'class': 'parabox' },
+          { className: 'parabox' },
           'Hi! My name is Hayden, I am an 18 year old transmasculine person who is currently studying web development. I\'ve decided to make this website a place for people who are trans, nonbinary or questioning, to find helpful resources, positive messages, answers to questions, and positive pictures of the trans* community.',
           _react2.default.createElement('br', null),
           _react2.default.createElement('br', null),
@@ -11794,14 +11789,14 @@ var Home = function Home() {
       ),
       _react2.default.createElement(
         'div',
-        { 'class': 'article2' },
+        { className: 'article2' },
         _react2.default.createElement('br', null),
         _react2.default.createElement('br', null),
         _react2.default.createElement('br', null)
       ),
       _react2.default.createElement(
         'div',
-        { 'class': 'article' },
+        { className: 'article' },
         _react2.default.createElement(
           'h3',
           null,
@@ -11812,18 +11807,18 @@ var Home = function Home() {
           null,
           'Of The Day:'
         ),
-        _react2.default.createElement('img', { 'class': 'articleimg', src: 'https://static1.squarespace.com/static/53246668e4b097bd81719d73/53aefdd1e4b034188ca5a7cc/5754b61ff85082f641d9b621/1465170754534/Flag_JackWave.jpg?format=1500w' })
+        _react2.default.createElement('img', { className: 'articleimg', src: 'https://static1.squarespace.com/static/53246668e4b097bd81719d73/53aefdd1e4b034188ca5a7cc/5754b61ff85082f641d9b621/1465170754534/Flag_JackWave.jpg?format=1500w' })
       ),
       _react2.default.createElement(
         'div',
-        { 'class': 'article2' },
+        { className: 'article2' },
         _react2.default.createElement('br', null),
         _react2.default.createElement('br', null),
         _react2.default.createElement('br', null)
       ),
       _react2.default.createElement(
         'div',
-        { 'class': 'article' },
+        { className: 'article' },
         _react2.default.createElement(
           'h3',
           null,
@@ -11836,7 +11831,7 @@ var Home = function Home() {
         ),
         _react2.default.createElement(
           'p',
-          { 'class': 'parabox', id: 'quote' },
+          { className: 'parabox', id: 'quote' },
           '"Believing you are unworthy of love and belonging \u2014 that who you are authentically is a sin or is wrong \u2014 is deadly. Who you are is beautiful and amazing." -',
           _react2.default.createElement(
             'i',
@@ -11847,32 +11842,32 @@ var Home = function Home() {
       ),
       _react2.default.createElement(
         'div',
-        { 'class': 'article2' },
+        { className: 'article2' },
         _react2.default.createElement('br', null),
         _react2.default.createElement('br', null),
         _react2.default.createElement('br', null)
       ),
       _react2.default.createElement(
         'div',
-        { 'class': 'container' },
+        { className: 'container' },
         _react2.default.createElement(
           'div',
-          { 'class': 'row' },
+          { className: 'row' },
           _react2.default.createElement(
             'div',
-            { 'class': 'eight columns' },
+            { className: 'eight columns' },
             _react2.default.createElement(
               'h5',
-              { 'class': 'footertxt' },
+              { className: 'footertxt' },
               'Made by Hayden , 2017'
             )
           ),
           _react2.default.createElement(
             'div',
-            { 'class': 'four columns' },
+            { className: 'four columns' },
             _react2.default.createElement(
               'h5',
-              { 'class': 'footertxt' },
+              { className: 'footertxt' },
               _react2.default.createElement(
                 'a',
                 { href: 'https://github.com/hayden-malan' },
