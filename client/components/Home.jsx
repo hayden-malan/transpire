@@ -7,7 +7,7 @@ const Home = () => {
 
 
 
-<div className="container">
+
 
    
     <div className="row">
@@ -153,19 +153,19 @@ const Home = () => {
         <div className="row">
           <div className="eight columns">
             <h5 className="footertxt">
-              Made by Hayden , 2017
+              Made by Hayden , 2018
             </h5>
           </div>
 
           <div className="four columns">
          
-            <h5 className="footertxt"><a href="https://github.com/hayden-malan">GitHub</a> | <a   href="https://keep--cool.tumblr.com">Tumblr</a> |
-              <a     href="https://hayden-malan.github.io/projectShark/sharks.html">Shark   Quiz</a>
+            <h5 className="footertxt"><a className="footertxt" href="https://github.com/hayden-malan">GitHub</a> | <a className="footertxt"  href="https://keep--cool.tumblr.com">Tumblr</a> |
+              <a className="footertxt"      href="https://hayden-malan.github.io/projectShark/sharks.html">Shark   Quiz</a>
             </h5>
           </div>
         </div>
       </div>
-    </div>
+   
 
 
 
