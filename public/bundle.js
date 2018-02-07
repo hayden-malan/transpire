@@ -11529,7 +11529,17 @@ var _Home = __webpack_require__(104);
 
 var _Home2 = _interopRequireDefault(_Home);
 
+var _Resources = __webpack_require__(233);
+
+var _Resources2 = _interopRequireDefault(_Resources);
+
+var _Gallery = __webpack_require__(234);
+
+var _Gallery2 = _interopRequireDefault(_Gallery);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//subcomponents
 
 var App = function App() {
   return _react2.default.createElement(
@@ -11541,13 +11551,15 @@ var App = function App() {
       _react2.default.createElement(
         'div',
         { className: 'container' },
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default })
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/resources', component: _Resources2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/gallery', component: _Gallery2.default })
       )
     )
   );
 };
 
-//components
+//components; main
 exports.default = App;
 
 /***/ }),
@@ -11846,42 +11858,38 @@ var Home = function Home() {
     ),
     _react2.default.createElement(
       'div',
-      { className: 'container' },
+      { className: 'row' },
       _react2.default.createElement(
         'div',
-        { className: 'row' },
+        { className: 'eight columns' },
         _react2.default.createElement(
-          'div',
-          { className: 'eight columns' },
-          _react2.default.createElement(
-            'h5',
-            { className: 'footertxt' },
-            'Made by Hayden , 2018'
-          )
-        ),
+          'h5',
+          { className: 'footertxt' },
+          'Made by Hayden , 2018'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'four columns' },
         _react2.default.createElement(
-          'div',
-          { className: 'four columns' },
+          'h5',
+          { className: 'footertxt' },
           _react2.default.createElement(
-            'h5',
-            { className: 'footertxt' },
-            _react2.default.createElement(
-              'a',
-              { className: 'footertxt', href: 'https://github.com/hayden-malan' },
-              'GitHub'
-            ),
-            ' | ',
-            _react2.default.createElement(
-              'a',
-              { className: 'footertxt', href: 'https://keep--cool.tumblr.com' },
-              'Tumblr'
-            ),
-            ' |',
-            _react2.default.createElement(
-              'a',
-              { className: 'footertxt', href: 'https://hayden-malan.github.io/projectShark/sharks.html' },
-              'Shark   Quiz'
-            )
+            'a',
+            { className: 'footertxt', href: 'https://github.com/hayden-malan' },
+            'GitHub'
+          ),
+          ' | ',
+          _react2.default.createElement(
+            'a',
+            { className: 'footertxt', href: 'https://keep--cool.tumblr.com' },
+            'Tumblr'
+          ),
+          ' |',
+          _react2.default.createElement(
+            'a',
+            { className: 'footertxt', href: 'https://hayden-malan.github.io/projectShark/sharks.html' },
+            'SharkQuiz'
           )
         )
       )
@@ -27029,6 +27037,660 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 233 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(8);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Resources = function Resources() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'resources' },
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'div',
+        { className: 'nine columns' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Transpire Resources'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'Educating, Motivating, Connecting'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'three columns' },
+        _react2.default.createElement('img', { className: 'logo', src: 'http://files.pfaw.org/uploads/2017/07/1280px-Transgender_Pride_flag-800x458.png' })
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'navbar' },
+      _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'three columns' },
+          _react2.default.createElement(
+            'div',
+            { className: 'dropdown' },
+            _react2.default.createElement(
+              'button',
+              { className: 'dropbtn' },
+              'RESOURCES'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'dropdown-content' },
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'FTM'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'MTF'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Questioning'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Nonbinary'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Parents'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'three columns' },
+          _react2.default.createElement(
+            'div',
+            { className: 'dropdown' },
+            _react2.default.createElement(
+              'button',
+              { className: 'dropbtn' },
+              'GALLERY'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'dropdown-content' },
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Post'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Search'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'View All'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'three columns' },
+          _react2.default.createElement(
+            'div',
+            { className: 'dropdown' },
+            _react2.default.createElement(
+              'button',
+              { className: 'dropbtn' },
+              'QUESTIONS'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'dropdown-content' },
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Ask'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Search'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'View All'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Contact Us'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'three columns' },
+          _react2.default.createElement(
+            'div',
+            { className: 'dropdown' },
+            _react2.default.createElement(
+              'button',
+              { className: 'dropbtn' },
+              'POSITIVITY'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'dropdown-content' },
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Post'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Search'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '/' },
+                'View All'
+              )
+            )
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        'Resources'
+      ),
+      _react2.default.createElement(
+        'h5',
+        null,
+        'A variety to choose from:'
+      ),
+      _react2.default.createElement(
+        'p',
+        { className: 'parabox' },
+        'Disclaimer! All of these resources are suggestions, or information that has been compiled in order to be of some use to members of the community. I urge you to remember that not all of us are the same, and that different things may or may not work for different people.',
+        _react2.default.createElement('br', null),
+        _react2.default.createElement('br', null),
+        'The resources on this site can in no way replace any type of medical or professional advice, and there is no guarantee that this information will be of use to you, or will solve your problems.',
+        _react2.default.createElement('br', null),
+        _react2.default.createElement('br', null),
+        'In saying that, I do hope that these resources can provide you with knowledge for you to take into your own considerations and that eventually these resources can grow more accurate over time. Enjoy!',
+        _react2.default.createElement('br', null),
+        _react2.default.createElement('br', null),
+        _react2.default.createElement('br', null),
+        'Cheers, Hayden'
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article2' },
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null)
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        'FTM'
+      ),
+      _react2.default.createElement(
+        'h5',
+        null,
+        'Resources:'
+      ),
+      _react2.default.createElement('img', { className: 'articleimg', src: 'https://static1.squarespace.com/static/53246668e4b097bd81719d73/53aefdd1e4b034188ca5a7cc/5754b61ff85082f641d9b621/1465170754534/Flag_JackWave.jpg?format=1500w' })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article2' },
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null)
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        'Quote'
+      ),
+      _react2.default.createElement(
+        'h5',
+        null,
+        'Of The Day:'
+      ),
+      _react2.default.createElement(
+        'p',
+        { className: 'parabox', id: 'quote' },
+        '"Believing you are unworthy of love and belonging \u2014 that who you are authentically is a sin or is wrong \u2014 is deadly. Who you are is beautiful and amazing." -',
+        _react2.default.createElement(
+          'i',
+          { id: 'quote' },
+          'Laverne Cox'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article2' },
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null)
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'div',
+        { className: 'eight columns' },
+        _react2.default.createElement(
+          'h5',
+          { className: 'footertxt' },
+          'Made by Hayden , 2018'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'four columns' },
+        _react2.default.createElement(
+          'h5',
+          { className: 'footertxt' },
+          _react2.default.createElement(
+            'a',
+            { className: 'footertxt', href: 'https://github.com/hayden-malan' },
+            'GitHub'
+          ),
+          ' | ',
+          _react2.default.createElement(
+            'a',
+            { className: 'footertxt', href: 'https://keep--cool.tumblr.com' },
+            'Tumblr'
+          ),
+          ' |',
+          _react2.default.createElement(
+            'a',
+            { className: 'footertxt', href: 'https://hayden-malan.github.io/projectShark/sharks.html' },
+            'SharkQuiz'
+          )
+        )
+      )
+    )
+  );
+};
+
+exports.default = Resources;
+
+/***/ }),
+/* 234 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(8);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Gallery = function Gallery() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'gallery' },
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'div',
+        { className: 'nine columns' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Welcome To Transpire'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'Educating, Motivating, Connecting'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'three columns' },
+        _react2.default.createElement('img', { className: 'logo', src: 'http://files.pfaw.org/uploads/2017/07/1280px-Transgender_Pride_flag-800x458.png' })
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'navbar' },
+      _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'three columns' },
+          _react2.default.createElement(
+            'div',
+            { className: 'dropdown' },
+            _react2.default.createElement(
+              'button',
+              { className: 'dropbtn' },
+              'RESOURCES'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'dropdown-content' },
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'FTM'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'MTF'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Questioning'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Nonbinary'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Parents'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'three columns' },
+          _react2.default.createElement(
+            'div',
+            { className: 'dropdown' },
+            _react2.default.createElement(
+              'button',
+              { className: 'dropbtn' },
+              'GALLERY'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'dropdown-content' },
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Post'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Search'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'View All'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'three columns' },
+          _react2.default.createElement(
+            'div',
+            { className: 'dropdown' },
+            _react2.default.createElement(
+              'button',
+              { className: 'dropbtn' },
+              'QUESTIONS'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'dropdown-content' },
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Ask'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Search'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'View All'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Contact Us'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'three columns' },
+          _react2.default.createElement(
+            'div',
+            { className: 'dropdown' },
+            _react2.default.createElement(
+              'button',
+              { className: 'dropbtn' },
+              'POSITIVITY'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'dropdown-content' },
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Post'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'Search'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '/' },
+                'View All'
+              )
+            )
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        'Transpire'
+      ),
+      _react2.default.createElement(
+        'h5',
+        null,
+        'About Us:'
+      ),
+      _react2.default.createElement(
+        'p',
+        { className: 'parabox' },
+        'Hi! My name is Hayden, I am an 18 year old transmasculine person who is currently studying web development. I\'ve decided to make this website a place for people who are trans, nonbinary or questioning, to find helpful resources, positive messages, answers to questions, and positive pictures of the trans* community.',
+        _react2.default.createElement('br', null),
+        _react2.default.createElement('br', null),
+        'I have done this because I see a great need in our community for resources that are easier to access, and prettier to look through. To me personally , it is really hard to read through information that looks like it was made decades ago, with no formatting or styling. I hope that this can be a place of positivity, learning and joy for everyone who visits this site.',
+        _react2.default.createElement('br', null),
+        _react2.default.createElement('br', null),
+        'Please remember to be respectful to other users, and I hope you have a fabulous day!',
+        _react2.default.createElement('br', null),
+        _react2.default.createElement('br', null),
+        _react2.default.createElement('br', null),
+        'Cheers, Hayden'
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article2' },
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null)
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        'Picture'
+      ),
+      _react2.default.createElement(
+        'h5',
+        null,
+        'Of The Day:'
+      ),
+      _react2.default.createElement('img', { className: 'articleimg', src: 'https://static1.squarespace.com/static/53246668e4b097bd81719d73/53aefdd1e4b034188ca5a7cc/5754b61ff85082f641d9b621/1465170754534/Flag_JackWave.jpg?format=1500w' })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article2' },
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null)
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        'Quote'
+      ),
+      _react2.default.createElement(
+        'h5',
+        null,
+        'Of The Day:'
+      ),
+      _react2.default.createElement(
+        'p',
+        { className: 'parabox', id: 'quote' },
+        '"Believing you are unworthy of love and belonging \u2014 that who you are authentically is a sin or is wrong \u2014 is deadly. Who you are is beautiful and amazing." -',
+        _react2.default.createElement(
+          'i',
+          { id: 'quote' },
+          'Laverne Cox'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'article2' },
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null)
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'div',
+        { className: 'eight columns' },
+        _react2.default.createElement(
+          'h5',
+          { className: 'footertxt' },
+          'Made by Hayden , 2018'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'four columns' },
+        _react2.default.createElement(
+          'h5',
+          { className: 'footertxt' },
+          _react2.default.createElement(
+            'a',
+            { className: 'footertxt', href: 'https://github.com/hayden-malan' },
+            'GitHub'
+          ),
+          ' | ',
+          _react2.default.createElement(
+            'a',
+            { className: 'footertxt', href: 'https://keep--cool.tumblr.com' },
+            'Tumblr'
+          ),
+          ' |',
+          _react2.default.createElement(
+            'a',
+            { className: 'footertxt', href: 'https://hayden-malan.github.io/projectShark/sharks.html' },
+            'SharkQuiz'
+          )
+        )
+      )
+    )
+  );
+};
+
+exports.default = Gallery;
 
 /***/ })
 /******/ ]);

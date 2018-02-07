@@ -148,7 +148,7 @@ const Home = () => {
 
     </div>
 
-      <div className="container">
+    
      
         <div className="row">
           <div className="eight columns">
@@ -160,11 +160,11 @@ const Home = () => {
           <div className="four columns">
          
             <h5 className="footertxt"><a className="footertxt" href="https://github.com/hayden-malan">GitHub</a> | <a className="footertxt"  href="https://keep--cool.tumblr.com">Tumblr</a> |
-              <a className="footertxt"      href="https://hayden-malan.github.io/projectShark/sharks.html">Shark   Quiz</a>
+              <a className="footertxt"      href="https://hayden-malan.github.io/projectShark/sharks.html">SharkQuiz</a>
             </h5>
           </div>
         </div>
-      </div>
+    
    
 
 
