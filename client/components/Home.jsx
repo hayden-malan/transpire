@@ -1,10 +1,25 @@
 import React from 'react'
 
+//subcomponents
+import About from './About'
+import BlankSpace from './BlankSpace'
+import PictureOTM from './PictureOTM'
+import QuoteOTM from './QuoteOTM'
+
+
+
 const Home = () => {
   return (
     <div className='home'>
-      <h2>Home</h2>
-      <p>Make yourself at home as we all wait for Hayden to figure out React. . .</p>
+      <About />
+        <BlankSpace />
+
+      <PictureOTM />
+        <BlankSpace />
+
+      <QuoteOTM />
+        <BlankSpace />
+        
     </div>
   )
 }

@@ -65,10 +65,18 @@ h5 {
 }
 
 .footertxt {
-    padding-top:2rem;
+   
     text-align:center;
-    text-decoration: bold;
+    
 }
+
+a.footertxt {
+    color: #C53078;
+     background-color: rgba(133, 245, 253, 0.43);
+    font-size:1.1em;
+}
+
+.footertxt a:hover {color: #25C1FF}
 
 /* code {
     background-color: black;
@@ -143,6 +151,7 @@ h5 {
   .parabox {
    background-color:rgb(255, 255, 255);
    color: grey;
+   font-size:1.1em;
    margin-right: 40px;
    margin-left:10px;
    padding:10px;
@@ -153,5 +162,7 @@ h5 {
       font-size:30px;
       color: grey;
   }
+
+
 
   
