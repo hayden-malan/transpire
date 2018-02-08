@@ -7,6 +7,7 @@ import Resources from './Resources'
 import Gallery from './Gallery'
 //subcomponents
 
+
 const App = () => {
   return (
     <Router>

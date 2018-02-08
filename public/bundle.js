@@ -11541,6 +11541,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 //subcomponents
 
+
 var App = function App() {
   return _react2.default.createElement(
     _reactRouterDom.HashRouter,
@@ -11951,48 +11952,23 @@ var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _About = __webpack_require__(236);
+
+var _About2 = _interopRequireDefault(_About);
+
+var _BlankSpace = __webpack_require__(237);
+
+var _BlankSpace2 = _interopRequireDefault(_BlankSpace);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//subcomponents
 var Home = function Home() {
   return _react2.default.createElement(
     'div',
     { className: 'home' },
-    _react2.default.createElement(
-      'div',
-      { className: 'article' },
-      _react2.default.createElement(
-        'h3',
-        null,
-        'Transpire'
-      ),
-      _react2.default.createElement(
-        'h5',
-        null,
-        'About Us:'
-      ),
-      _react2.default.createElement(
-        'p',
-        { className: 'parabox' },
-        'Hi! My name is Hayden, I am an 18 year old transmasculine person who is currently studying web development. I\'ve decided to make this website a place for people who are trans, nonbinary or questioning, to find helpful resources, positive messages, answers to questions, and positive pictures of the trans* community.',
-        _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
-        'I have done this because I see a great need in our community for resources that are easier to access, and prettier to look through. To me personally , it is really hard to read through information that looks like it was made decades ago, with no formatting or styling. I hope that this can be a place of positivity, learning and joy for everyone who visits this site.',
-        _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
-        'Please remember to be respectful to other users, and I hope you have a fabulous day!',
-        _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
-        _react2.default.createElement('br', null),
-        'Cheers, Hayden'
-      )
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'article2' },
-      _react2.default.createElement('br', null),
-      _react2.default.createElement('br', null),
-      _react2.default.createElement('br', null)
-    ),
+    _react2.default.createElement(_About2.default, null),
+    _react2.default.createElement(_BlankSpace2.default, null),
     _react2.default.createElement(
       'div',
       { className: 'article' },
@@ -27380,6 +27356,88 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 235 */,
+/* 236 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var About = function About() {
+  return _react2.default.createElement(
+    "div",
+    { className: "article" },
+    _react2.default.createElement(
+      "h3",
+      null,
+      "Transpire"
+    ),
+    _react2.default.createElement(
+      "h5",
+      null,
+      "About Us:"
+    ),
+    _react2.default.createElement(
+      "p",
+      { className: "parabox" },
+      "Hi! My name is Hayden, I am an 18 year old transmasculine person who is currently studying web development. I've decided to make this website a place for people who are trans, nonbinary or questioning, to find helpful resources, positive messages, answers to questions, and positive pictures of the trans* community.",
+      _react2.default.createElement("br", null),
+      _react2.default.createElement("br", null),
+      "I have done this because I see a great need in our community for resources that are easier to access, and prettier to look through. To me personally , it is really hard to read through information that looks like it was made decades ago, with no formatting or styling. I hope that this can be a place of positivity, learning and joy for everyone who visits this site.",
+      _react2.default.createElement("br", null),
+      _react2.default.createElement("br", null),
+      "Please remember to be respectful to other users, and I hope you have a fabulous day!",
+      _react2.default.createElement("br", null),
+      _react2.default.createElement("br", null),
+      _react2.default.createElement("br", null),
+      "Cheers, Hayden"
+    )
+  );
+};
+
+exports.default = About;
+
+/***/ }),
+/* 237 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var BlankSpace = function BlankSpace() {
+
+  return _react2.default.createElement(
+    "div",
+    { className: "article2" },
+    _react2.default.createElement("br", null),
+    _react2.default.createElement("br", null),
+    _react2.default.createElement("br", null)
+  );
+};
+
+exports.default = BlankSpace;
 
 /***/ })
 /******/ ]);
