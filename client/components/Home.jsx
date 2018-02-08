@@ -5,7 +5,7 @@ import About from './About'
 import BlankSpace from './BlankSpace'
 import PictureOTM from './PictureOTM'
 import QuoteOTM from './QuoteOTM'
-import Footer from './Footer'
+
 
 
 const Home = () => {
@@ -19,9 +19,7 @@ const Home = () => {
 
       <QuoteOTM />
         <BlankSpace />
-
-      <Footer />
-      
+        
     </div>
   )
 }
