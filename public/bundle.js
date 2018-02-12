@@ -11579,9 +11579,37 @@ var _Gallery = __webpack_require__(107);
 
 var _Gallery2 = _interopRequireDefault(_Gallery);
 
+var _Questions = __webpack_require__(245);
+
+var _Questions2 = _interopRequireDefault(_Questions);
+
+var _Positivity = __webpack_require__(244);
+
+var _Positivity2 = _interopRequireDefault(_Positivity);
+
+var _FTM = __webpack_require__(246);
+
+var _FTM2 = _interopRequireDefault(_FTM);
+
+var _MTF = __webpack_require__(247);
+
+var _MTF2 = _interopRequireDefault(_MTF);
+
+var _Questioning = __webpack_require__(250);
+
+var _Questioning2 = _interopRequireDefault(_Questioning);
+
+var _NonBinary = __webpack_require__(248);
+
+var _NonBinary2 = _interopRequireDefault(_NonBinary);
+
+var _Parents = __webpack_require__(249);
+
+var _Parents2 = _interopRequireDefault(_Parents);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//components
+//pages
 var App = function App() {
   return _react2.default.createElement(
     _reactRouterDom.HashRouter,
@@ -11597,12 +11625,22 @@ var App = function App() {
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/resources', component: _Resources2.default }),
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/gallery', component: _Gallery2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/questions', component: _Questions2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/positivity', component: _Positivity2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/resources/FTM', component: _FTM2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/resources/MTF', component: _MTF2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/resources/questioning', component: _Questioning2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/resources/nonbinary', component: _NonBinary2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/resources/parents', component: _Parents2.default }),
         _react2.default.createElement(_Footer2.default, null)
       )
     )
   );
 };
-//pages
+//resources
+
+
+//components
 exports.default = App;
 
 /***/ }),
@@ -12026,16 +12064,6 @@ var NavBar = function NavBar() {
               "a",
               { href: "#" },
               "Go Home"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#" },
-              "Quote"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "/" },
-              "Picture"
             )
           )
         )
@@ -12061,27 +12089,27 @@ var NavBar = function NavBar() {
             ),
             _react2.default.createElement(
               "a",
-              { href: "#/resources" },
+              { href: "#/resources/FTM" },
               "FTM"
             ),
             _react2.default.createElement(
               "a",
-              { href: "#/resources" },
+              { href: "#/resources/MTF" },
               "MTF"
             ),
             _react2.default.createElement(
               "a",
-              { href: "#/resources" },
+              { href: "#/resources/questioning" },
               "Questioning"
             ),
             _react2.default.createElement(
               "a",
-              { href: "#/resources" },
+              { href: "#/resources/nonbinary" },
               "Nonbinary"
             ),
             _react2.default.createElement(
               "a",
-              { href: "#/resources" },
+              { href: "#/resources/parents" },
               "Parents"
             )
           )
@@ -12103,17 +12131,7 @@ var NavBar = function NavBar() {
             { className: "dropdown-content" },
             _react2.default.createElement(
               "a",
-              { href: "#" },
-              "Post"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#" },
-              "Search"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#" },
+              { href: "#/gallery" },
               "View All"
             )
           )
@@ -12135,23 +12153,8 @@ var NavBar = function NavBar() {
             { className: "dropdown-content" },
             _react2.default.createElement(
               "a",
-              { href: "#" },
-              "Ask"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#" },
-              "Search"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#" },
-              "View All"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#" },
-              "Contact Us"
+              { href: "#/questions" },
+              "Preview"
             )
           )
         )
@@ -12172,18 +12175,8 @@ var NavBar = function NavBar() {
             { className: "dropdown-content" },
             _react2.default.createElement(
               "a",
-              { href: "#" },
-              "Post"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#" },
-              "Search"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "/" },
-              "View All"
+              { href: "#/positivity" },
+              "Preview"
             )
           )
         )
@@ -27560,6 +27553,282 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 244 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _QuoteOTM = __webpack_require__(113);
+
+var _QuoteOTM2 = _interopRequireDefault(_QuoteOTM);
+
+var _BlankSpace = __webpack_require__(63);
+
+var _BlankSpace2 = _interopRequireDefault(_BlankSpace);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//subcomponents
+
+
+var Positivity = function Positivity() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'home' },
+    _react2.default.createElement(_QuoteOTM2.default, null),
+    _react2.default.createElement(_BlankSpace2.default, null)
+  );
+};
+
+exports.default = Positivity;
+
+/***/ }),
+/* 245 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+/* 246 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var FTM = function FTM() {
+  return _react2.default.createElement(
+    "div",
+    { className: "article" },
+    _react2.default.createElement(
+      "h3",
+      null,
+      "FTM"
+    ),
+    _react2.default.createElement(
+      "h5",
+      null,
+      "Resources:"
+    ),
+    _react2.default.createElement(
+      "ul",
+      null,
+      _react2.default.createElement("li", null),
+      " Thing 1",
+      _react2.default.createElement("li", null),
+      " Thing 2",
+      _react2.default.createElement("li", null),
+      " Thing 3"
+    )
+  );
+};
+
+exports.default = FTM;
+
+/***/ }),
+/* 247 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var MTF = function MTF() {
+  return _react2.default.createElement(
+    "div",
+    { className: "article" },
+    _react2.default.createElement(
+      "h3",
+      null,
+      "FTM"
+    ),
+    _react2.default.createElement(
+      "h5",
+      null,
+      "Resources:"
+    ),
+    _react2.default.createElement(
+      "ul",
+      null,
+      _react2.default.createElement("li", null),
+      " Thing 1",
+      _react2.default.createElement("li", null),
+      " Thing 2",
+      _react2.default.createElement("li", null),
+      " Thing 3"
+    )
+  );
+};
+
+exports.default = MTF;
+
+/***/ }),
+/* 248 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var NonBinary = function NonBinary() {
+  return _react2.default.createElement(
+    "div",
+    { className: "article" },
+    _react2.default.createElement(
+      "h3",
+      null,
+      "FTM"
+    ),
+    _react2.default.createElement(
+      "h5",
+      null,
+      "Resources:"
+    ),
+    _react2.default.createElement(
+      "ul",
+      null,
+      _react2.default.createElement("li", null),
+      " Thing 1",
+      _react2.default.createElement("li", null),
+      " Thing 2",
+      _react2.default.createElement("li", null),
+      " Thing 3"
+    )
+  );
+};
+
+exports.default = NonBinary;
+
+/***/ }),
+/* 249 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Parents = function Parents() {
+  return _react2.default.createElement(
+    "div",
+    { className: "article" },
+    _react2.default.createElement(
+      "h3",
+      null,
+      "Parents"
+    ),
+    _react2.default.createElement(
+      "h5",
+      null,
+      "Resources:"
+    ),
+    _react2.default.createElement(
+      "ul",
+      null,
+      _react2.default.createElement("li", null),
+      " Thing 1",
+      _react2.default.createElement("li", null),
+      " Thing 2",
+      _react2.default.createElement("li", null),
+      " Thing 3"
+    )
+  );
+};
+
+exports.default = Parents;
+
+/***/ }),
+/* 250 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Questioning = function Questioning() {
+  return _react2.default.createElement(
+    "div",
+    { className: "article" },
+    _react2.default.createElement(
+      "h3",
+      null,
+      "Questioning"
+    ),
+    _react2.default.createElement(
+      "h5",
+      null,
+      "Resources:"
+    ),
+    _react2.default.createElement(
+      "ul",
+      null,
+      _react2.default.createElement("li", null),
+      " Thing 1",
+      _react2.default.createElement("li", null),
+      " Thing 2",
+      _react2.default.createElement("li", null),
+      " Thing 3"
+    )
+  );
+};
+
+exports.default = Questioning;
 
 /***/ })
 /******/ ]);
