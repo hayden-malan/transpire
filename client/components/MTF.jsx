@@ -5,7 +5,7 @@ const MTF = () => {
     <div className="article">
 
       <h3>
-        FTM
+        MTF
       </h3>
       <h5>
         Resources:

@@ -5,7 +5,7 @@ const NonBinary = () => {
     <div className="article">
 
       <h3>
-        FTM
+        Non Binary
       </h3>
       <h5>
         Resources:

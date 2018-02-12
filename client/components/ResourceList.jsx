@@ -1,5 +1,13 @@
 import React from 'react'
 
+//imports resource components
+import FTM from './FTM'
+import BlankSpace from './BlankSpace'
+import MTF from './MTF'
+import Questioning from './Questioning'
+import NonBinary from './NonBinary'
+import Parents from './Parents'
+
 const ResourceList = () => {
   return (
     <div className='resourcelist'>
@@ -8,13 +16,17 @@ const ResourceList = () => {
         <h3>
           All Resources :
       </h3>
-        <div className="parabox">
-          <ul>
-            <li /> Thing 1
-            <li /> Thing 2
-            <li /> Thing 3
-         </ul>
-        </div>
+        
+         <FTM />
+         <BlankSpace />
+         <MTF />
+         <BlankSpace />
+         <Questioning />
+         <BlankSpace />
+         <NonBinary />
+         <BlankSpace />
+         <Parents />
+       
       </div>
     </div>
   )
