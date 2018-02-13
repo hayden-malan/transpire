@@ -13,8 +13,8 @@ const NavBar = () => {
                     </button>
             <div className="dropdown-content">
               <a href="#">Go Home</a>
-              <a href="#">Quote</a>
-              <a href="/">Picture</a>
+              {/* <a href="#">Quote</a>
+              <a href="/">Picture</a> */}
             </div>
           </div>
         </div>
@@ -26,11 +26,11 @@ const NavBar = () => {
                     </button>
             <div className="dropdown-content">
               <a href="#/resources">View All</a>
-              <a href="#/resources">FTM</a>
-              <a href="#/resources">MTF</a>
-              <a href="#/resources">Questioning</a>
-              <a href="#/resources">Nonbinary</a>
-              <a href="#/resources">Parents</a>
+              <a href="#/resources/FTM">FTM</a>
+              <a href="#/resources/MTF">MTF</a>
+              <a href="#/resources/questioning">Questioning</a>
+              <a href="#/resources/nonbinary">Nonbinary</a>
+              <a href="#/resources/parents">Parents</a>
             </div>
           </div>
         </div>
@@ -41,9 +41,9 @@ const NavBar = () => {
               GALLERY
                     </button>
             <div className="dropdown-content">
-              <a href="#">Post</a>
-              <a href="#">Search</a>
-              <a href="#">View All</a>
+              {/* <a href="#">Post</a>
+              <a href="#">Search</a> */}
+              <a href="#/gallery">View All</a>
             </div>
           </div>
         </div>
@@ -54,10 +54,11 @@ const NavBar = () => {
               QUESTIONS
                     </button>
             <div className="dropdown-content">
-              <a href="#">Ask</a>
+            <a href="#/questions">Preview</a>
+              {/* <a href="#">Ask</a>
               <a href="#">Search</a>
               <a href="#">View All</a>
-              <a href="#">Contact Us</a>
+              <a href="#">Contact Us</a> */}
             </div>
           </div>
         </div>
@@ -68,9 +69,10 @@ const NavBar = () => {
               POSITIVITY
                     </button>
             <div className="dropdown-content">
-              <a href="#">Post</a>
+            <a href="#/positivity">Preview</a>
+              {/* <a href="#">Post</a>
               <a href="#">Search</a>
-              <a href="/">View All</a>
+              <a href="/">View All</a> */}
             </div>
           </div>
         </div>

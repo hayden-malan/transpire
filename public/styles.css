@@ -163,6 +163,16 @@ a.footertxt {
       color: grey;
   }
 
+  li {
+      color: grey;
+  }
+    ul {
+      color: grey;
+  }
+
+  #questionform {
+      color: rgb(44, 44, 44);
+  }
 
 
   
