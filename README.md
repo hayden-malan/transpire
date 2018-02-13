@@ -2,7 +2,7 @@
 Educating, Motivating, Connecting.
 
 [VISIT THE SITE HERE](http://trans-pire.herokuapp.com)
-#transpire
+transpire
 
 verb: transpire, (transpires, transpired, transpiring)
 1.
@@ -15,16 +15,16 @@ ________________________________________________________________________________
 
 SO! Right now on my most updated branch, I have:
 
-### Home page is working
-### Nav Bar is looking COOL
+#### Home page is working
+#### Nav Bar is looking COOL
 
-### Routes are working using HashRouter
+#### Routes are working using HashRouter
 
-### There is a /resources page to theoretically View All
-### All of the /resources/thing pages are linked to and have some filler text there, are waiting for data
+#### There is a /resources page to theoretically View All
+#### All of the /resources/thing pages are linked to and have some filler text there, are waiting for data
 
-### Haha uh, the CSS is pretty much done! (fingers crossed)
-### The header and footer are nice and consistent and the links to github, tumblr and my shark quiz are working
+#### Haha uh, the CSS is pretty much done! (fingers crossed)
+#### The header and footer are nice and consistent and the links to github, tumblr and my shark quiz are working
 
 ______________________________________________________________________________________________________________________
 
