@@ -9,9 +9,9 @@ verb: transpire, (transpires, transpired, transpiring)
 (of a secret or something unknown) come to be known; be revealed.
 synonyms:	happen, occur, take place, come about, come to pass, crop up, turn up, arise, chance, ensue, befall, be realized, take shape; 
 
-#SOME TEXT ABOUT THE PROJECT OR SOMETHING
+# SOME TEXT ABOUT THE PROJECT OR SOMETHING
 
-##A THING ABOUT MY PROCESS OVER PRODUCT
+## A THING ABOUT MY PROCESS OVER PRODUCT
 
 Process Over Product: Trying to get myself into the growth mindset rather than the fixed mindset.
 
@@ -29,7 +29,7 @@ Process Over Product: Trying to get myself into the growth mindset rather than t
 
 
 
-##OK SO NOW I AM LAUNCHING INTO MY INTRO, WHAT IS TRANSPIRE AND WHY DID I MAKE IT
+## OK SO NOW I AM LAUNCHING INTO MY INTRO, WHAT IS TRANSPIRE AND WHY DID I MAKE IT
 
 Transpireis an informative collection of RESOURCES, aimed to help educate cis people about trans people, and help store trans and nb resources to be shared amongst the community. I saw a need for thi because as a trans person, when I am online looking for information about these topics, I am discouraged by how hard it is to access this type of info, and how slow it is to hear about 1 good link to a resource page. Once you start reading this new link, it is also sometimes presented with minimal styling and very old looking html, which can make it hard to digest. 
 
@@ -45,4 +45,4 @@ ONE place for someone to START learning , if they have questions or interest or 
 	 \     \    |    /   /
  you are here>> TRANSPIRE
 
-##Initiated by Hayden 13.01.18
+## Initiated by Hayden 13.01.18
