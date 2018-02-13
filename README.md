@@ -9,6 +9,25 @@ verb: transpire, (transpires, transpired, transpiring)
 (of a secret or something unknown) come to be known; be revealed.
 synonyms:	happen, occur, take place, come about, come to pass, crop up, turn up, arise, chance, ensue, befall, be realized, take shape; 
 
+______________________________________________________________________________________________________________________
+
+# FEATURES TO BE EXCITED ABOUT IN CURRENT 'version'
+
+SO! Right now on my most updated branch, I have:
+
+### Home page is working
+### Nav Bar is looking COOL
+
+### Routes are working using HashRouter
+
+### There is a /resources page to theoretically View All
+### All of the /resources/thing pages are linked to and have some filler text there, are waiting for data
+
+### Haha uh, the CSS is pretty much done! (fingers crossed)
+### The header and footer are nice and consistent and the links to github, tumblr and my shark quiz are working
+
+______________________________________________________________________________________________________________________
+
 # SOME TEXT ABOUT THE PROJECT OR SOMETHING
 
 BUT before we start that, let's dig into some SOFT SKILLS:
@@ -29,6 +48,7 @@ Process Over Product: Trying to get myself into the growth mindset rather than t
 
 -I have often been praised in the past for my ABILITY "you're so smart" >> I am working to change my internal dialogue, so that I can praise myself on my PROCESS and EFFORT rather than the results of what I am doing. "You really tried hard."
 
+______________________________________________________________________________________________________________________
 
 
 ## OK SO NOW I AM LAUNCHING INTO MY INTRO, WHAT IS TRANSPIRE AND WHY DID I MAKE IT
@@ -40,6 +60,9 @@ My dream is that this project I have started, will grow into a useful app to elp
 
 ONE place for someone to START learning , if they have questions or interest or need info about antthing related to being trans or a loved one being trans. Kind of like an I site or a map.
 
+______________________________________________________________________________________________________________________ 
+
+
 ## HERE'S A DIAGRAM OF HOW I WANT IT TO WORK
 
 	Info Info Info Info Info
@@ -47,6 +70,9 @@ ONE place for someone to START learning , if they have questions or interest or 
 	\     \     |    /   /
 	 \     \    |    /   /
  you are here>> TRANSPIRE
+ 
+ ______________________________________________________________________________________________________________________
+ 
  
  ## SO LIKE, WHAT IS THE USER EXPERIENCE? (the intended one anyway)
  
@@ -84,6 +110,9 @@ ONE place for someone to START learning , if they have questions or interest or 
  
  Ideally all of these dropdowns would "do" something when clicked on. 
  
+______________________________________________________________________________________________________________________
+
+
  ## What's the MVP though?
  
  For me right now, the MVP would be that the 
@@ -101,6 +130,8 @@ ONE place for someone to START learning , if they have questions or interest or 
  
  GALLERY has a VIEW ALL so that you can see what is happening over there!
  
+ ______________________________________________________________________________________________________________________
+ 
  
  ## the rest is important to me but I think will be unattainable in the current timeframe and more like something to work on in the future.
  
@@ -108,5 +139,11 @@ ONE place for someone to START learning , if they have questions or interest or 
  
  Honestly tonight I'm too bloody tired to do all that. So here is to a brilliant idea and pitch 3 weeks in the making (accounting for terribly novice time management ~\_(^_^)_/~
  
+ 
+ ______________________________________________________________________________________________________________________
+ 
+ 
 
 ## Initiated by Hayden 13.01.18
+
+### If you are part of the EDA Slack channel, feel free to message me with feedback about my project! Thank you to everyone who took the time to read this or to visit my site. Good luck with whatever you're working on!
