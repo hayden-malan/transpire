@@ -11,6 +11,8 @@ synonyms:	happen, occur, take place, come about, come to pass, crop up, turn up,
 
 # SOME TEXT ABOUT THE PROJECT OR SOMETHING
 
+BUT before we start that, let's dig into some SOFT SKILLS:
+
 ## A THING ABOUT MY PROCESS OVER PRODUCT
 
 Process Over Product: Trying to get myself into the growth mindset rather than the fixed mindset.
@@ -31,18 +33,80 @@ Process Over Product: Trying to get myself into the growth mindset rather than t
 
 ## OK SO NOW I AM LAUNCHING INTO MY INTRO, WHAT IS TRANSPIRE AND WHY DID I MAKE IT
 
-Transpireis an informative collection of RESOURCES, aimed to help educate cis people about trans people, and help store trans and nb resources to be shared amongst the community. I saw a need for thi because as a trans person, when I am online looking for information about these topics, I am discouraged by how hard it is to access this type of info, and how slow it is to hear about 1 good link to a resource page. Once you start reading this new link, it is also sometimes presented with minimal styling and very old looking html, which can make it hard to digest. 
+Transpire is an informative collection of RESOURCES, aimed to help educate cis people about trans people, and help store trans and nb resources to be shared amongst the community. I saw a need for thi because as a trans person, when I am online looking for information about these topics, I am discouraged by how hard it is to access this type of info, and how slow it is to hear about 1 good link to a resource page. Once you start reading this new link, it is also sometimes presented with minimal styling and very old looking html, which can make it hard to digest. 
 
 My dream is that this project I have started, will grow into a useful app to elp trans and nb people as well as their loved ones, by providing them with a location on the web to easily access and read about trans resources, and eventually a place where people can add more resources to a growing database of links to sites with pre-existing info on those sites.
 
 
 ONE place for someone to START learning , if they have questions or interest or need info about antthing related to being trans or a loved one being trans. Kind of like an I site or a map.
 
+## HERE'S A DIAGRAM OF HOW I WANT IT TO WORK
 
 	Info Info Info Info Info
 	|     |     |    |   |
 	\     \     |    /   /
 	 \     \    |    /   /
  you are here>> TRANSPIRE
+ 
+ ## SO LIKE, WHAT IS THE USER EXPERIENCE? (the intended one anyway)
+ 
+ --->>> A Home page! Be welcome! See a picture, and a quote, which update every so often and are ideally linked to respective picture and quote databases.
+ 
+ --->>> A Nav Bar with Dropdowns
+ *uses # routes for faster load times
+ 
+ So what's in the nav bar? eventually I want these to be the buttons:
+ 
+ HOME,
+ RESOURCES,
+ GALLERY,
+ QUESTIONS,
+ POSITIVITY
+ 
+ and when you click on home,
+ the dropdown will display
+ GO HOME
+ 
+ on resources,
+ VIEW ALL,
+ POST,
+ SEARCH
+ 
+ on questions,
+ ASK,
+ SEARCH,
+ VIEW ALL
+ 
+ on positivity,
+ SEARCH,
+ VIEW,
+ POST
+ 
+ Ideally all of these dropdowns would "do" something when clicked on. 
+ 
+ ## What's the MVP though?
+ 
+ For me right now, the MVP would be that the 
+ 
+ HOME,
+ RESOURCES,
+ GALLERY
+ 
+ buttons with their respective routes are working,
+ and that 
+ 
+ HOME has a GO HOME which sends the user back home no matter where they are,
+ 
+ RESOURCES has 6 different working links that take you to VIEW ALL, and 5 specific data filtering pages
+ 
+ GALLERY has a VIEW ALL so that you can see what is happening over there!
+ 
+ 
+ ## the rest is important to me but I think will be unattainable in the current timeframe and more like something to work on in the future.
+ 
+ So, eventually, there would be an "add" and a "search" for resource links within the DB and maybe even social media links, a 'heart' button for any form of data the user likes, and more stuff!!
+ 
+ Honestly tonight I'm too bloody tired to do all that. So here is to a brilliant idea and pitch 3 weeks in the making (accounting for terribly novice time management ~\_(^_^)_/~
+ 
 
 ## Initiated by Hayden 13.01.18
