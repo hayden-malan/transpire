@@ -1,8 +1,5 @@
 # Transpire
-Educating, Motivating, Connecting.
-
-[visit the site here](http://trans-pire.herokuapp.com)
-
+#### Educating, Motivating, Connecting.
 
 verb: transpire, (transpires, transpired, transpiring)
 1.
@@ -11,20 +8,21 @@ synonyms:	happen, occur, take place, come about, come to pass, crop up, turn up,
 
 ______________________________________________________________________________________________________________________
 
-##New Version due live on heroku: 30th April
+## New Version due live on heroku: 30th April
 
-(link to be added here once it is up and running)
+(link to be added here once it is up and running) 
+<!-- [visit the site here](http://transpire-resources.herokuapp.com) -->
 ______________________________________________________________________________________________________________________
 ## Features in current version:
 
 
-#### Home page complete.
-#### Nav bar formatted.
-#### Routes working.
-#### There is a /resources page.
-#### All of the /resources/* have filler data and are ready for data to be imported.
-#### CSS on main page is satisfactory.
-#### Header, footer, and links complete.
+* Home page complete.
+* Nav bar formatted.
+* Routes working.
+* There is a /resources page.
+* All of the /resources/* have filler data and are ready for data to be imported.
+* CSS on main page is satisfactory.
+* Header, footer, and links complete.
 
 ______________________________________________________________________________________________________________________
 
@@ -50,34 +48,33 @@ ________________________________________________________________________________
  --->>> A Home page! Be welcome! See a picture, and a quote, which update every so often and are ideally linked to respective picture and quote databases.
  
  --->>> A Nav Bar with Dropdowns
- *uses # routes for faster load times
+ * uses # routes for faster load times
  
-In the navbar there are to be these buttons:
+In the navbar there are to be these buttons with their own dropdowns:
  
- HOME,
- RESOURCES,
- GALLERY,
- QUESTIONS,
- POSITIVITY
- 
- and when you click on home,
- the dropdown will display
- GO HOME
- 
- on resources,
- VIEW ALL,
- POST,
- SEARCH
- 
- on questions,
- ASK,
- SEARCH,
- VIEW ALL
- 
- on positivity,
- SEARCH,
- VIEW,
- POST
+ #### Home: 
+* Go Home
+
+
+ #### Resources:
+* View All
+* Post
+* Search
+
+ #### Gallery:
+* View All
+* Post
+* Search
+
+ #### Questions:
+* Ask
+* Search
+* View All
+
+ #### Positivity:
+ * Search
+ * View All
+ * Post
  
  Each item on a dropdown menu will take the user to the relevant page. 
  
@@ -86,16 +83,16 @@ ________________________________________________________________________________
 
  ## MVP
   
- - HOME, RESOURCES, GALLERY buttons with their respective routes are working 
- -HOME has a GO HOME which sends the user back home no matter where they are
+ * HOME, RESOURCES, GALLERY buttons with their respective routes are working 
+ * HOME has a GO HOME which sends the user back home no matter where they are
  
- -RESOURCES has 6 different working links that take you to VIEW ALL, and 5 specific data filtering pages.
+ * RESOURCES has 6 different working links that take you to VIEW ALL, and 5 specific data filtering pages.
  
- -GALLERY has a VIEW ALL 
+ * GALLERY has a VIEW ALL 
  
  ______________________________________________________________________________________________________________________
  
-##Future goals:
+### Future goals:
  
  So, eventually, there would be an "add" and a "search" for resource links within the DB and maybe even social media links, a 'heart' button for any form of data the user likes.
  
