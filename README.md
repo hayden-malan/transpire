@@ -11,7 +11,11 @@ synonyms:	happen, occur, take place, come about, come to pass, crop up, turn up,
 
 ______________________________________________________________________________________________________________________
 
-# Features in current version:
+##New Version due live on heroku: 30th April
+
+(link to be added here once it is up and running)
+______________________________________________________________________________________________________________________
+## Features in current version:
 
 
 #### Home page complete.
@@ -40,25 +44,15 @@ A central place for someone to start learning , if they have questions or intere
 ______________________________________________________________________________________________________________________ 
 
 
-## HERE'S A DIAGRAM OF HOW I WANT IT TO WORK
-
-	Info Info Info Info Info
-	|     |     |    |   |
-	\     \     |    /   /
-	 \     \    |    /   /
- you are here>> TRANSPIRE
  
- ______________________________________________________________________________________________________________________
- 
- 
- ## SO LIKE, WHAT IS THE USER EXPERIENCE? (the intended one anyway)
+ ## User flow:
  
  --->>> A Home page! Be welcome! See a picture, and a quote, which update every so often and are ideally linked to respective picture and quote databases.
  
  --->>> A Nav Bar with Dropdowns
  *uses # routes for faster load times
  
- So what's in the nav bar? eventually I want these to be the buttons:
+In the navbar there are to be these buttons:
  
  HOME,
  RESOURCES,
@@ -85,7 +79,7 @@ ________________________________________________________________________________
  VIEW,
  POST
  
- Ideally all of these dropdowns would "do" something when clicked on. 
+ Each item on a dropdown menu will take the user to the relevant page. 
  
 ______________________________________________________________________________________________________________________
 
